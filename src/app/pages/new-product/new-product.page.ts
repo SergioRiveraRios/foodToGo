@@ -80,6 +80,7 @@ export class NewProductPage implements OnInit {
       this.initForm();
       this.ingredients.length = 0;
       this.utils.LoadPag();
+      this.utils.createToast('Producto añadido');
     }
   }
 }
