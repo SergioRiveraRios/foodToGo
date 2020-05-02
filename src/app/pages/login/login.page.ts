@@ -82,7 +82,4 @@ export class LoginPage implements OnInit {
       await alert.present();
     }
   }
-  redirectCreate() {
-    this.router.navigateByUrl('/create')
-  }
 }
